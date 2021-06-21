@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+URL = "https://farmfrsh.herokuapp.com"
+
 STRIPE_SECRET_KEY = 'sk_test_51J4rESSDmIUt8wOpycrazvPSI9R7jSPErqD3Odqp3dYarIs6Uw3Wxp9P0SirlMAdvuq0RkX63OrmAcV7wLsAWLrw007jgcZdGj'
 
 # Application definition
