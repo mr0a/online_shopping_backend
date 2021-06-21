@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-7(fl%l24#cwdorie(#ugb$0+9_$o7ka#qgvsgo9#$4er0w_83s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 STRIPE_SECRET_KEY = 'sk_test_51J4rESSDmIUt8wOpycrazvPSI9R7jSPErqD3Odqp3dYarIs6Uw3Wxp9P0SirlMAdvuq0RkX63OrmAcV7wLsAWLrw007jgcZdGj'
 
@@ -48,10 +48,9 @@ INSTALLED_APPS = [
     'order',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8080",
-    "http://127.0.0.1:8080"
-]
+# CORS_ALLOWED_ORIGINS = [
+# ]
+CORS_ORIGIN_ALLOW_ALL = True
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
