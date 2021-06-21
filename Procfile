@@ -1,1 +1,1 @@
-web: gunicorn Gitcart.wsgi
+web: gunicorn backend.wsgi
